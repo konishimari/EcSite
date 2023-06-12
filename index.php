@@ -1,6 +1,6 @@
 <?php
 session_start();
-//1.  DB接続します
+//1.  DB接続します！
 try {
   $pdo = new PDO('mysql:dbname=gs_db;charset=utf8;host=localhost','root','');
 } catch (PDOException $e) {
